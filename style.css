@@ -1,0 +1,52 @@
+* {
+    font-family: 'Inconsolata', monospace;
+}
+
+#I {
+color: black;
+}
+
+#II {
+    color: rgb(64, 64, 255);
+}
+
+nav{
+    width: 80%;
+    background-color: #35444F;
+    height: 30px;
+    margin: auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+aside {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#brat {
+    width: 100px;
+}
+
+article {
+        display: flex;
+        flex-flow: column wrap;
+}
+
+footer{
+    display: inline-block;
+    background-color: #63696E;
+}
+
+footer p {
+    float: right;
+}
