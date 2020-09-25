@@ -1,52 +1,103 @@
 * {
-    font-family: 'Inconsolata', monospace;
+    border-radius: 5px; 
+    font-family: 'Courier Prime', monospace;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1280px;
+    margin: auto;
+}
+
+header > h1{
+    font-size: 50px;
 }
 
 #I {
-color: black;
+    color: black;
 }
 
 #II {
-    color: rgb(64, 64, 255);
+    color: rgb(98, 162, 235);
 }
 
 nav{
-    width: 80%;
     background-color: #35444F;
-    height: 30px;
+    height: 70px;
+    width: 100%;
     margin: auto;
-}
+    text-align: center;
+    margin-bottom: 30px;
+    
+ }
 
-nav a{
+.nl{
+    display: inline-block;
+    padding: 20px;
     text-decoration: none;
     color: #FFFFFF;
-    margin: auto;
+    font-size: 22px;
+    margin: 0 3px;
+    border-color: #35444F;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.nl:hover{
+    background-color: #222F3A;
+    border-color: #506270;
+    border-style: solid;
+    border-width: 0px 2px;
 }
 
 main {
-    display: flex;
-    flex-flow: row wrap;
+    display: inline-block;
+    margin: auto;
 }
 
 aside {
-    display: flex;
-    flex-flow: column wrap;
+    display: inline-block;
+    vertical-align: top;
+    border: #52626e solid 1px;
+    border-radius: 5px;  
+    width: 340px;
+    padding: 20px 40px;
 }
 
-#brat {
-    width: 100px;
+aside > a {
+    text-decoration: none;
+    margin: 20px;
 }
+/* 
+aside > a:hover{
+    background-color: #DBDBDB;
+    padding-left: 40px;
+    margin: 0;
+    } */
 
 article {
-        display: flex;
-        flex-flow: column wrap;
+        display: inline-block;
+        flex-flow: column wrap; 
+        padding-left: 20px;
+        width: 885px;
+}
+#ph {
+    width: 885px;
+    height: 529px;
+    margin: auto;
+    background-image: url(./imga.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: #52626e solid 1px;  
 }
 
 footer{
     display: inline-block;
-    background-color: #63696E;
+    width: 100%;
+    background-color: #81878b;
+    margin-bottom: 30px;
 }
 
-footer p {
-    float: right;
+footer > p {
+    margin-left: auto;
 }
