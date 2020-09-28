@@ -101,20 +101,38 @@ article {
   display: block;
   margin: auto;
   width: 320px;
-  transition: 1s ease-in;
+  transition: 0.3s ;
 }
 
 #ph:hover {
-  width: 360px;
+   width: 360px;
 }
 
 footer {
-  display: inline-block;
   width: 100%;
-  background-color: #81878b;
+  background-color: #b9c1c7;
   margin-bottom: 30px;
+  padding: 5px;
+  text-align: center;
 }
 
-footer > p {
-  margin-left: auto;
+.fl{
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+  margin: 5px;
+  color: black;
+  font-weight: 600;
 }
+
+a.fl:hover {
+  color: rgb(49, 129, 166);
+  text-decoration: underline;
+}
+
+p.fl{
+  display: inline-block;
+  margin-left: 30%
+}
+
+
