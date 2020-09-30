@@ -1,12 +1,10 @@
-* {
-  border-radius: 5px;
-  font-family: "Courier Prime", monospace;
-  box-sizing: border-box;
-}
 
 body {
-  width: 1280px;
+  width: 100%;
+  max-width: 1281px;
   margin: auto;
+  font-family: "Courier Prime", monospace;
+  box-sizing: border-box;
 }
 
 #ramda {
@@ -54,8 +52,6 @@ nav {
 
 main {
   display: inline-block;
-
-  padding: 0 10px;
 }
 
 aside {
@@ -72,13 +68,12 @@ aside > a {
   display: inline-block;
   text-decoration: none;
   padding: 20px;
-  width: 100%;
 }
 
 aside > a:hover {
   background-color: #dbdbdb;
   padding-left: 40px;
-  margin: 0;
+  width: 100%;
 }
 
 article {
