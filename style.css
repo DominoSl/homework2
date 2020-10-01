@@ -1,10 +1,8 @@
-
 body {
   width: 100%;
   max-width: 1281px;
   margin: auto;
   font-family: "Courier Prime", monospace;
-  box-sizing: border-box;
 }
 
 #ramda {
@@ -22,7 +20,7 @@ body {
   color: rgb(98, 162, 235);
 }
 
-#ramda:hover #I{
+#ramda:hover #I {
   color: rgb(98, 162, 235);
 }
 
@@ -32,11 +30,12 @@ body {
 
 nav {
   background-color: #35444f;
-  height: 70px;
   width: 100%;
   margin: auto;
   text-align: center;
-  margin-bottom: 30px;
+  border-color: #f3faff;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .nl {
@@ -45,15 +44,15 @@ nav {
   text-decoration: none;
   color: #ffffff;
   font-size: 22px;
-  margin: 4px;
   border-color: #35444f;
-  border-style: solid;
+  border-style: solid none;
   border-width: 0 2px;
+  margin: -15px;
 }
 
 .nl:hover {
   background-color: #222f3a;
-  border-color: #506270;
+  border-color: #;
   border-style: solid;
   border-width: 0px 2px;
 }
@@ -69,7 +68,7 @@ aside {
   font-size: 20px;
   border: #52626e solid 1px;
   width: 340px;
-  padding: 10px ;
+  padding: 10px;
 }
 
 aside > a {
@@ -102,14 +101,15 @@ article {
 }
 
 #AnimatedImage {
-  display: block;
+  display: inlin-block;
   margin: auto;
+  vertical-align: middle;
   width: 320px;
-  transition: 0.4s ;
+  transition: 0.4s;
 }
 
 #AnimatedImage:hover {
-   width: 360px;
+  width: 360px;
 }
 
 footer {
@@ -120,7 +120,7 @@ footer {
   text-align: center;
 }
 
-.fl{
+.fl {
   display: inline-block;
   padding: 5px;
   text-decoration: none;
@@ -134,9 +134,7 @@ a.fl:hover {
   text-decoration: underline;
 }
 
-p.fl{
+p.fl {
   display: inline-block;
-  margin-left: 30%
+  margin-left: 30%;
 }
-
-
