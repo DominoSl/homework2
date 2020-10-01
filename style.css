@@ -22,6 +22,14 @@ body {
   color: rgb(98, 162, 235);
 }
 
+#ramda:hover #I{
+  color: rgb(98, 162, 235);
+}
+
+#ramda:hover #II {
+  color: black;
+}
+
 nav {
   background-color: #35444f;
   height: 70px;
@@ -60,20 +68,21 @@ aside {
   color: #495863;
   font-size: 20px;
   border: #52626e solid 1px;
-  border-radius: 5px;
   width: 340px;
+  padding: 10px ;
 }
 
 aside > a {
   display: inline-block;
   text-decoration: none;
-  padding: 20px;
+  padding: 20px 10px;
+  width: 80%;
+  margin: auto;
 }
 
 aside > a:hover {
   background-color: #dbdbdb;
   padding-left: 40px;
-  width: 100%;
 }
 
 article {
@@ -82,7 +91,7 @@ article {
   padding-left: 20px;
   width: 885px;
 }
-#phb {
+#ImageContainer {
   display: flex;
   width: 885px;
   height: 529px;
@@ -92,14 +101,14 @@ article {
   border: #52626e solid 1px;
 }
 
-#ph {
+#AnimatedImage {
   display: block;
   margin: auto;
   width: 320px;
-  transition: 0.3s ;
+  transition: 0.4s ;
 }
 
-#ph:hover {
+#AnimatedImage:hover {
    width: 360px;
 }
 
